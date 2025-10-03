@@ -1,0 +1,97 @@
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+/*Shared Style */
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 100px;
+}
+
+/* header{
+    max-width: 1140px;
+    margin: 0 auto;
+} */
+
+/*Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 2.6rem;
+}
+
+.r{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    cursor:pointer;
+    font-weight:400 ;
+    font-size: 1.2rem;
+    color: gray
+}
+
+nav a:hover{
+    background-color: bisque;
+}
+
+/* banner */
+
+.banner-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.banner-title1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-content{
+    width: 580px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+    margin-left: 200px;
+}
+
+.btn-banner{
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
