@@ -17,4 +17,4 @@ step-3==> Navbar alignment and use of flex-
 
 step-4==> Banner content and portfolio image using flex
 
-step-5==> 
+step-5==> Use flexbox for about info and main style
